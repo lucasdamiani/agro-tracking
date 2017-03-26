@@ -35,3 +35,8 @@ http-server -c-1 .
 ```
 KEYVALUE_STORE=/home/lucasdamiani/.composer-credentials
 ```
+
+# Run dashboard on Docker
+```
+docker run --rm -d -p 8888:8888 agro-tracking:0.0.2
+```
