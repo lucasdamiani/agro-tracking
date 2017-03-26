@@ -4,6 +4,12 @@
 "participantPwd" :"DJY27pEnl16d",
 ```
 
+# Start hyperledger
+```
+cd sample-applications/packages/getting-started/scripts
+docker-compose up -d
+```
+
 # Start composer-ui
 ```
 nohup composer-ui > composer-ui.log &
@@ -23,4 +29,9 @@ git clone https://github.com/lucasdamiani/agro-tracking
 ```
 npm install -g http-server
 http-server -c-1 .
+```
+
+# Fabric configuration
+```
+KEYVALUE_STORE=/home/lucasdamiani/.composer-credentials
 ```
