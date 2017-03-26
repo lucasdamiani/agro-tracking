@@ -1,0 +1,12 @@
+{
+    "type": "hlf",
+    "keyValStore": "/root/.composer-credentials/kvs",
+    "membershipServicesURL": "grpcs://1320590c8d604ec7adfb695fabdae1eb-ca.us.blockchain.ibm.com:30004",
+    "peerURL": "grpcs://1320590c8d604ec7adfb695fabdae1eb-ca.us.blockchain.ibm.com:30004",
+    "eventHubURL": "grpcs://1320590c8d604ec7adfb695fabdae1eb-vp2.us.blockchain.ibm.com:31004",
+    "deployWaitTime": 300,
+    "invokeWaitTime": 10,
+    "networks": {
+        "org.acme.biznissnet": "16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb"
+    }
+}
